@@ -12,10 +12,8 @@
   "scripts": {
     "dev": "tsci dev",
     "build": "tsci build",
-    "snapshot": "tsci snapshot index.circuit.tsx",
-    "snapshot:update": "tsci snapshot index.circuit.tsx --update --force-update",
     "start": "tsci dev",
-    "typecheck": "tsc --noEmit"
+    "test": "tsci check netlist index.circuit.tsx"
   },
   "devDependencies": {
     "@types/react": "^19.3.0",
